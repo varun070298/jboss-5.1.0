@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jaxen"
+             licenseType=""
+             version="1.1-brew"
+             description=""
+             
+             > 
+              
+    <artifact id="jaxen.jar"/>
+
+
+    <export>
+      <include input="jaxen.jar"/>
+
+    </export>
+  </component>
+</project>

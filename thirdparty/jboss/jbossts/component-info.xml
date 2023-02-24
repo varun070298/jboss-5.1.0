@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jbossts"
+             licenseType=""
+             version="4.6.1.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jbossts-common.jar"/>
+    <artifact id="jbossjts.jar"/>
+    <artifact id="jbossjts-integration.jar"/>
+    <artifact id="jbossjts-jacorb.jar"/>
+    <artifact id="jbossts-tools.sar"/>
+    <artifact id="jbossxts.sar"/>
+
+
+    <export>
+      <include input="jbossxts.sar"/>
+      <include input="jbossjts.jar"/>
+      <include input="jbossts-common.jar"/>
+      <include input="jbossts-tools.sar"/>
+      <include input="jbossjts-integration.jar"/>
+      <include input="jbossjts-jacorb.jar"/>
+
+    </export>
+  </component>
+</project>

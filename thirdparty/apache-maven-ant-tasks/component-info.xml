@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="apache-maven-ant-tasks"
+             licenseType=""
+             version="2.0.9"
+             description=""
+             
+             > 
+              
+    <artifact id="maven-ant-tasks.jar"/>
+
+
+    <export>
+      <include input="maven-ant-tasks.jar"/>
+
+    </export>
+  </component>
+</project>

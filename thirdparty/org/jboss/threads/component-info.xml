@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/threads"
+             licenseType=""
+             version="1.0.0.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-threads.jar"/>
+    <artifact id="jboss-threads-metadata.jar"/>
+
+
+    <export>
+      <include input="jboss-threads-metadata.jar"/>
+      <include input="jboss-threads.jar"/>
+
+    </export>
+  </component>
+</project>

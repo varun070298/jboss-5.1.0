@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="wscommons-policy"
+             licenseType=""
+             version="1.0"
+             description=""
+             
+             > 
+              
+    <artifact id="policy.jar"/>
+
+
+    <export>
+      <include input="policy.jar"/>
+
+    </export>
+  </component>
+</project>

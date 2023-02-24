@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/aspects"
+             licenseType=""
+             version="1.0.0.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-current-invocation-aspects.jar"/>
+    <artifact id="jboss-remoting-aspects.jar"/>
+    <artifact id="jboss-transaction-aspects.jar"/>
+    <artifact id="jboss-security-aspects.jar"/>
+
+
+    <export>
+      <include input="jboss-transaction-aspects.jar"/>
+      <include input="jboss-remoting-aspects.jar"/>
+      <include input="jboss-security-aspects.jar"/>
+      <include input="jboss-current-invocation-aspects.jar"/>
+
+    </export>
+  </component>
+</project>

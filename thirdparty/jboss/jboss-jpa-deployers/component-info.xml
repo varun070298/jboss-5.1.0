@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jboss-jpa-deployers"
+             licenseType=""
+             version="1.0.0"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-jpa-deployers.jar"/>
+
+
+    <export>
+      <include input="jboss-jpa-deployers.jar"/>
+
+    </export>
+  </component>
+</project>

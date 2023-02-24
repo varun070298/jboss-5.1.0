@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="com/sun/org/apache/xml/internal"
+             licenseType=""
+             version="20050927"
+             description=""
+             
+             > 
+              
+    <artifact id="resolver.jar"/>
+
+
+    <export>
+      <include input="resolver.jar"/>
+
+    </export>
+  </component>
+</project>

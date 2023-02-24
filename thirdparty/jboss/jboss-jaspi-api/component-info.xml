@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jboss-jaspi-api"
+             licenseType=""
+             version="1.0.0.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-jaspi-api.jar"/>
+
+
+    <export>
+      <include input="jboss-jaspi-api.jar"/>
+
+    </export>
+  </component>
+</project>

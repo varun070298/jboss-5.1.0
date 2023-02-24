@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="qdox"
+             licenseType=""
+             version="1.6.1"
+             description=""
+             
+             > 
+              
+    <artifact id="qdox.jar"/>
+
+
+    <export>
+      <include input="qdox.jar"/>
+
+    </export>
+  </component>
+</project>

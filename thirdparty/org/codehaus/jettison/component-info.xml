@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/codehaus/jettison"
+             licenseType=""
+             version="1.0-RC2"
+             description=""
+             
+             > 
+              
+    <artifact id="jettison.jar"/>
+
+
+    <export>
+      <include input="jettison.jar"/>
+
+    </export>
+  </component>
+</project>

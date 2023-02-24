@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="hsqldb"
+             licenseType=""
+             version="1.8.0.8-brew"
+             description=""
+             
+             > 
+              
+    <artifact id="hsqldb.jar"/>
+
+
+    <export>
+      <include input="hsqldb.jar"/>
+
+    </export>
+  </component>
+</project>

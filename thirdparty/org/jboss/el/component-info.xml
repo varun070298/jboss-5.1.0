@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/el"
+             licenseType=""
+             version="1.0_02.CR2"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-el.jar"/>
+
+
+    <export>
+      <include input="jboss-el.jar"/>
+
+    </export>
+  </component>
+</project>

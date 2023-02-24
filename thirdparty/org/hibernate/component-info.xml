@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/hibernate"
+             licenseType=""
+             version="3.3.1.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="hibernate-jbosscache2.jar"/>
+
+
+    <export>
+      <include input="hibernate-jbosscache2.jar"/>
+
+    </export>
+  </component>
+</project>

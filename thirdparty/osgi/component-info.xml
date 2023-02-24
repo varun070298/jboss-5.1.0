@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="osgi"
+             licenseType=""
+             version="1.0"
+             description=""
+             
+             > 
+              
+    <artifact id="osgi.compendium.jar"/>
+    <artifact id="osgi.core.jar"/>
+
+
+    <export>
+      <include input="osgi.compendium.jar"/>
+      <include input="osgi.core.jar"/>
+
+    </export>
+  </component>
+</project>

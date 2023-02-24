@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jboss-negotiation"
+             licenseType=""
+             version="2.0.3.SP1"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-negotiation.jar"/>
+
+
+    <export>
+      <include input="jboss-negotiation.jar"/>
+
+    </export>
+  </component>
+</project>

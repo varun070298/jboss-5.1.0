@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jacorb"
+             licenseType=""
+             version="2.3.0jboss.patch6-brew"
+             description=""
+             
+             > 
+              
+    <artifact id="idl.jar"/>
+    <artifact id="idl_g.jar"/>
+    <artifact id="jacorb.jar"/>
+    <artifact id="jacorb_g.jar"/>
+
+
+    <export>
+      <include input="jacorb.jar"/>
+      <include input="idl_g.jar"/>
+      <include input="jacorb_g.jar"/>
+      <include input="idl.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="sun-javamail"
+             licenseType=""
+             version="1.4"
+             description=""
+             
+             > 
+              
+    <artifact id="mail.jar"/>
+
+
+    <export>
+      <include input="mail.jar"/>
+
+    </export>
+  </component>
+</project>

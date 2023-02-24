@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jboss-ejb3-mc-int"
+             licenseType=""
+             version="1.0.1"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-ejb3-mc-int.jar"/>
+
+
+    <export>
+      <include input="jboss-ejb3-mc-int.jar"/>
+
+    </export>
+  </component>
+</project>

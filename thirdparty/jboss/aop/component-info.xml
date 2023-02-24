@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/aop"
+             licenseType=""
+             version="2.1.1.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-aop-asintegration-core.jar"/>
+    <artifact id="jboss-aop.jar"/>
+    <artifact id="pluggable-instrumentor.jar"/>
+    <artifact id="jboss-aop-asintegration-jmx.jar"/>
+    <artifact id="jboss-aop-asintegration-mc.jar"/>
+    <artifact id="jboss-aop-deployers.jar"/>
+    <artifact id="jrockit-pluggable-instrumentor.jar"/>
+    <artifact id="jboss-aop-client.jar"/>
+    <artifact id="jboss-aop-aspects.jar"/>
+
+
+    <export>
+      <include input="jboss-aop-deployers.jar"/>
+      <include input="pluggable-instrumentor.jar"/>
+      <include input="jboss-aop-aspects.jar"/>
+      <include input="jboss-aop-asintegration-jmx.jar"/>
+      <include input="jboss-aop-asintegration-mc.jar"/>
+      <include input="jboss-aop.jar"/>
+      <include input="jboss-aop-client.jar"/>
+      <include input="jboss-aop-asintegration-core.jar"/>
+      <include input="jrockit-pluggable-instrumentor.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/test"
+             licenseType=""
+             version="1.1.4.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-test.jar"/>
+
+
+    <export>
+      <include input="jboss-test.jar"/>
+
+    </export>
+  </component>
+</project>

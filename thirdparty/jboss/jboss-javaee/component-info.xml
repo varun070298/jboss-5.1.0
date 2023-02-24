@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jboss-javaee"
+             licenseType=""
+             version="5.0.1.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-javaee.jar"/>
+
+
+    <export>
+      <include input="jboss-javaee.jar"/>
+
+    </export>
+  </component>
+</project>

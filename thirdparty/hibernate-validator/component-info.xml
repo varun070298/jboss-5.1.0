@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="hibernate-validator"
+             licenseType=""
+             version="3.1.0.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="hibernate-validator.jar"/>
+
+
+    <export>
+      <include input="hibernate-validator.jar"/>
+
+    </export>
+  </component>
+</project>

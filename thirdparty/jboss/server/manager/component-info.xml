@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/server/manager"
+             licenseType=""
+             version="1.0.2.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-server-manager.jar"/>
+
+
+    <export>
+      <include input="jboss-server-manager.jar"/>
+
+    </export>
+  </component>
+</project>

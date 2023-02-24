@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jboss-reflect"
+             licenseType=""
+             version="2.0.2.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-reflect.jar"/>
+
+
+    <export>
+      <include input="jboss-reflect.jar"/>
+
+    </export>
+  </component>
+</project>

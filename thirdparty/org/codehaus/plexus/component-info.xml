@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/codehaus/plexus"
+             licenseType=""
+             version="1.5.1"
+             description=""
+             
+             > 
+              
+    <artifact id="plexus-utils.jar"/>
+    <artifact id="plexus-container-default.jar"/>
+
+
+    <export>
+      <include input="plexus-utils.jar"/>
+      <include input="plexus-container-default.jar"/>
+
+    </export>
+  </component>
+</project>

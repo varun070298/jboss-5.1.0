@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="sun-fi"
+             licenseType=""
+             version="1.2.2"
+             description=""
+             
+             > 
+              
+    <artifact id="FastInfoset.jar"/>
+    <artifact id="FastInfosetUtilities.jar"/>
+
+
+    <export>
+      <include input="FastInfoset.jar"/>
+      <include input="FastInfosetUtilities.jar"/>
+
+    </export>
+  </component>
+</project>

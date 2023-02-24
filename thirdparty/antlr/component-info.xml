@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="antlr"
+             licenseType=""
+             version="2.7.6-brew"
+             description=""
+             
+             > 
+              
+    <artifact id="antlr.jar"/>
+
+
+    <export>
+      <include input="antlr.jar"/>
+
+    </export>
+  </component>
+</project>

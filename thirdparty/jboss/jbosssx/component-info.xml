@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jbosssx"
+             licenseType=""
+             version="2.0.3.SP1"
+             description=""
+             
+             > 
+              
+    <artifact id="jbosssx.jar"/>
+
+
+    <export>
+      <include input="jbosssx.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/common-logging-log4j"
+             licenseType=""
+             version="2.1.0.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-logging-log4j.jar"/>
+
+
+    <export>
+      <include input="jboss-logging-log4j.jar"/>
+
+    </export>
+  </component>
+</project>

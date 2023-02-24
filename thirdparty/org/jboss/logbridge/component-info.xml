@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/logbridge"
+             licenseType=""
+             version="1.0.0.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-logbridge.jar"/>
+
+
+    <export>
+      <include input="jboss-logbridge.jar"/>
+
+    </export>
+  </component>
+</project>

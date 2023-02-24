@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/slf4j"
+             licenseType=""
+             version="1.0.2.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="slf4j-jboss-logging.jar"/>
+
+
+    <export>
+      <include input="slf4j-jboss-logging.jar"/>
+
+    </export>
+  </component>
+</project>

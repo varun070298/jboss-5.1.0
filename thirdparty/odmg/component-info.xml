@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="odmg"
+             licenseType=""
+             version="3.0"
+             description=""
+             
+             > 
+              
+    <artifact id="odmg-3.0.jar"/>
+
+
+    <export>
+      <include input="odmg-3.0.jar"/>
+
+    </export>
+  </component>
+</project>

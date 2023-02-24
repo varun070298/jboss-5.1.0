@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="sun-jsf"
+             licenseType=""
+             version="1.2_12"
+             description=""
+             
+             > 
+              
+    <artifact id="jsf-impl.jar"/>
+    <artifact id="jsf-api.jar"/>
+
+
+    <export>
+      <include input="jsf-impl.jar"/>
+      <include input="jsf-api.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<server>
+
+   <mbean code="org.jboss.jms.server.destination.QueueService"
+      name="jboss.messaging.destination:service=Queue,name=testDistributedQueueA"
+      xmbean-dd="xmdesc/Queue-xmbean.xml">
+      <depends optional-attribute-name="ServerPeer">jboss.messaging:service=ServerPeer</depends>
+      <depends>jboss.messaging:service=PostOffice</depends>
+      <attribute name="SecurityConfig">
+        <security>
+           <role name="guest" read="true" write="true"/>
+        </security>
+      </attribute>
+      <attribute name="Clustered">true</attribute>
+   </mbean>   
+
+   <mbean code="org.jboss.jms.server.destination.QueueService"
+      name="jboss.messaging.destination:service=Queue,name=testDistributedQueueB"
+      xmbean-dd="xmdesc/Queue-xmbean.xml">
+      <depends optional-attribute-name="ServerPeer">jboss.messaging:service=ServerPeer</depends>
+      <depends>jboss.messaging:service=PostOffice</depends>
+      <attribute name="SecurityConfig">
+        <security>
+           <role name="guest" read="true" write="true"/>
+        </security>
+      </attribute>
+      <attribute name="Clustered">true</attribute>
+   </mbean>   
+
+   <mbean code="org.jboss.jms.server.destination.QueueService"
+      name="jboss.messaging.destination:service=Queue,name=testDistributedQueueC"
+      xmbean-dd="xmdesc/Queue-xmbean.xml">
+      <depends optional-attribute-name="ServerPeer">jboss.messaging:service=ServerPeer</depends>
+      <depends>jboss.messaging:service=PostOffice</depends>
+      <attribute name="SecurityConfig">
+        <security>
+           <role name="guest" read="true" write="true"/>
+        </security>
+      </attribute>
+      <attribute name="Clustered">true</attribute>
+   </mbean>   
+
+   <mbean code="org.jboss.jms.server.destination.QueueService"
+      name="jboss.messaging.destination:service=Queue,name=testDistributedQueueD"
+      xmbean-dd="xmdesc/Queue-xmbean.xml">
+      <depends optional-attribute-name="ServerPeer">jboss.messaging:service=ServerPeer</depends>
+      <depends>jboss.messaging:service=PostOffice</depends>
+      <attribute name="SecurityConfig">
+        <security>
+           <role name="guest" read="true" write="true"/>
+        </security>
+      </attribute>
+      <attribute name="Clustered">true</attribute>
+   </mbean>   
+
+   <mbean code="org.jboss.jms.server.destination.QueueService"
+      name="jboss.messaging.destination:service=Queue,name=testDistributedQueueE"
+      xmbean-dd="xmdesc/Queue-xmbean.xml">
+      <depends optional-attribute-name="ServerPeer">jboss.messaging:service=ServerPeer</depends>
+      <depends>jboss.messaging:service=PostOffice</depends>
+      <attribute name="SecurityConfig">
+        <security>
+           <role name="guest" read="true" write="true"/>
+        </security>
+      </attribute>
+      <attribute name="Clustered">true</attribute>
+   </mbean>   
+
+   <mbean code="org.jboss.jms.server.destination.QueueService"
+      name="jboss.messaging.destination:service=Queue,name=testDistributedQueueF"
+      xmbean-dd="xmdesc/Queue-xmbean.xml">
+      <depends optional-attribute-name="ServerPeer">jboss.messaging:service=ServerPeer</depends>
+      <depends>jboss.messaging:service=PostOffice</depends>
+      <attribute name="SecurityConfig">
+        <security>
+           <role name="guest" read="true" write="true"/>
+        </security>
+      </attribute>
+      <attribute name="Clustered">true</attribute>
+   </mbean>   
+
+
+</server>

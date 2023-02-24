@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="sun-jstl"
+             licenseType=""
+             version="1.2"
+             description=""
+             
+             > 
+              
+    <artifact id="jstl.jar"/>
+
+
+    <export>
+      <include input="jstl.jar"/>
+
+    </export>
+  </component>
+</project>

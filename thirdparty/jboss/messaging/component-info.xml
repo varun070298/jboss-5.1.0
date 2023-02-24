@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/messaging"
+             licenseType=""
+             version="1.4.3.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-messaging.jar"/>
+    <artifact id="jboss-messaging-client.jar"/>
+
+
+    <export>
+      <include input="jboss-messaging.jar"/>
+
+    </export>
+  </component>
+</project>

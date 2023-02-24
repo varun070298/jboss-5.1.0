@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/easymock"
+             licenseType=""
+             version="2.4"
+             description=""
+             
+             > 
+              
+    <artifact id="easymock.jar"/>
+
+
+    <export>
+      <include input="easymock.jar"/>
+
+    </export>
+  </component>
+</project>

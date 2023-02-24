@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/javaee"
+             licenseType=""
+             version="3.0.0.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-ejb-api.jar"/>
+    <artifact id="jboss-transaction-api.jar"/>
+    <artifact id="jboss-jms-api.jar"/>
+    <artifact id="jboss-jca-api.jar"/>
+    <artifact id="jboss-jacc-api.jar"/>
+    <artifact id="jboss-jad-api.jar"/>
+
+
+    <export>
+      <include input="jboss-transaction-api.jar"/>
+      <include input="jboss-jad-api.jar"/>
+      <include input="jboss-jms-api.jar"/>
+      <include input="jboss-jacc-api.jar"/>
+      <include input="jboss-jca-api.jar"/>
+      <include input="jboss-ejb-api.jar"/>
+
+    </export>
+  </component>
+</project>

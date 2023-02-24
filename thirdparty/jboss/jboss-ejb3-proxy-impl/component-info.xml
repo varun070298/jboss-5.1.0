@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jboss-ejb3-proxy-impl"
+             licenseType=""
+             version="1.0.2"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-ejb3-proxy-impl.jar"/>
+    <artifact id="jboss-ejb3-proxy-impl-client.jar"/>
+
+
+    <export>
+      <include input="jboss-ejb3-proxy-impl.jar"/>
+      <include input="jboss-ejb3-proxy-impl-client.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/cluster"
+             licenseType=""
+             version="1.1.1.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-ha-client.jar"/>
+    <artifact id="jboss-ha-server-api.jar"/>
+    <artifact id="jboss-ha-server-cache-spi.jar"/>
+    <artifact id="jboss-ha-server-cache-jbc.jar"/>
+
+
+    <export>
+      <include input="jboss-ha-server-cache-jbc.jar"/>
+      <include input="jboss-ha-server-api.jar"/>
+      <include input="jboss-ha-server-cache-spi.jar"/>
+      <include input="jboss-ha-client.jar"/>
+
+    </export>
+  </component>
+</project>

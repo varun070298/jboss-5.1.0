@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="apache-myfaces"
+             licenseType=""
+             version="1.1.3"
+             description=""
+             
+             > 
+              
+    <artifact id="myfaces-impl-1.1.3.jar"/>
+    <artifact id="myfaces-api-1.1.3.jar"/>
+
+
+    <export>
+      <include input="myfaces-impl-1.1.3.jar"/>
+      <include input="myfaces-api-1.1.3.jar"/>
+
+    </export>
+  </component>
+</project>

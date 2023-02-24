@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/springframework"
+             licenseType=""
+             version="2.5.5"
+             description=""
+             
+             > 
+              
+    <artifact id="spring-context-support.jar"/>
+
+
+    <export>
+      <include input="spring-context-support.jar"/>
+
+    </export>
+  </component>
+</project>

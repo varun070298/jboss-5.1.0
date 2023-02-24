@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jfreechart"
+             licenseType=""
+             version="1.0.2"
+             description=""
+             
+             > 
+              
+    <artifact id="jfreechart.jar"/>
+    <artifact id="jcommon.jar"/>
+
+
+    <export>
+      <include input="jfreechart.jar"/>
+      <include input="jcommon.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/ws/native"
+             licenseType=""
+             version="3.1.2.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jbossws-native-jaxrpc.jar"/>
+    <artifact id="jbossws-native-saaj.jar"/>
+    <artifact id="jbossws-native-client.jar"/>
+    <artifact id="jbossws-native-jaxws-ext.jar"/>
+    <artifact id="jbossws-native-jaxws.jar"/>
+    <artifact id="jbossws-native-core.jar"/>
+    <artifact id="jbossws-native-management.war"/>
+    <artifact id="jbossws-native-resources.jar"/>
+
+
+    <export>
+      <include input="jbossws-native-jaxws.jar"/>
+      <include input="jbossws-native-resources.jar"/>
+      <include input="jbossws-native-client.jar"/>
+      <include input="jbossws-native-saaj.jar"/>
+      <include input="jbossws-native-jaxrpc.jar"/>
+      <include input="jbossws-native-management.war"/>
+      <include input="jbossws-native-jaxws-ext.jar"/>
+      <include input="jbossws-native-core.jar"/>
+
+    </export>
+  </component>
+</project>

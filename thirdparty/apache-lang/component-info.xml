@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="apache-lang"
+             licenseType=""
+             version="2.1"
+             description=""
+             
+             > 
+              
+    <artifact id="commons-lang.jar"/>
+
+
+    <export>
+      <include input="commons-lang.jar"/>
+
+    </export>
+  </component>
+</project>

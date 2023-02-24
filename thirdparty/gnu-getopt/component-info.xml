@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="gnu-getopt"
+             licenseType=""
+             version="1.0.12-brew"
+             description=""
+             
+             > 
+              
+    <artifact id="getopt.jar"/>
+
+
+    <export>
+      <include input="getopt.jar"/>
+
+    </export>
+  </component>
+</project>

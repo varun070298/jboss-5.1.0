@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss"
+             licenseType=""
+             version="4.2.2.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-system.jar"/>
+    <artifact id="jboss-j2ee.jar"/>
+    <artifact id="jboss-jmx.jar"/>
+
+
+    <export>
+      <include input="jboss-system.jar"/>
+      <include input="jboss-jmx.jar"/>
+      <include input="jboss-j2ee.jar"/>
+
+    </export>
+  </component>
+</project>

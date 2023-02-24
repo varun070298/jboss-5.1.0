@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="classworlds"
+             licenseType=""
+             version="1.1-alpha-2"
+             description=""
+             
+             > 
+              
+    <artifact id="classworlds.jar"/>
+
+
+    <export>
+      <include input="classworlds.jar"/>
+
+    </export>
+  </component>
+</project>

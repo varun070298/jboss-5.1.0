@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="apache-discovery"
+             licenseType=""
+             version="0.4-brew"
+             description=""
+             
+             > 
+              
+    <artifact id="commons-discovery.jar"/>
+
+
+    <export>
+      <include input="commons-discovery.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jaxbintros"
+             licenseType=""
+             version="1.0.0.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-jaxb-intros.jar"/>
+
+
+    <export>
+      <include input="jboss-jaxb-intros.jar"/>
+
+    </export>
+  </component>
+</project>

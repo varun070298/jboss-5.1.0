@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jms-integration-tests"
+             licenseType=""
+             version="1.0.1.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="integration-mdb20.jar"/>
+    <artifact id="integration-mdb20-durable.jar"/>
+    <artifact id="integration-mdb20-selector.jar"/>
+    <artifact id="integration-mdb20-userTransaction.jar"/>
+    <artifact id="integration-mdb20-userTransactionDups.jar"/>
+    <artifact id="jms-integration-tests.jar"/>
+
+
+    <export>
+      <include input="integration-mdb20-durable.jar"/>
+      <include input="jms-integration-tests.jar"/>
+      <include input="integration-mdb20-userTransactionDups.jar"/>
+      <include input="integration-mdb20-userTransaction.jar"/>
+      <include input="integration-mdb20.jar"/>
+      <include input="integration-mdb20-selector.jar"/>
+
+    </export>
+  </component>
+</project>

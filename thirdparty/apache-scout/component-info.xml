@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="apache-scout"
+             licenseType=""
+             version="0.7rc2"
+             description=""
+             
+             > 
+              
+    <artifact id="scout.jar"/>
+
+
+    <export>
+      <include input="scout.jar"/>
+
+    </export>
+  </component>
+</project>

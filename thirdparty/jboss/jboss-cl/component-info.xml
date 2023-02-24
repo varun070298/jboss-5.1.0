@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jboss-cl"
+             licenseType=""
+             version="2.0.6.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-classloader.jar"/>
+    <artifact id="jboss-classloading.jar"/>
+    <artifact id="jboss-classloading-vfs.jar"/>
+
+
+    <export>
+      <include input="jboss-classloading.jar"/>
+      <include input="jboss-classloading-vfs.jar"/>
+      <include input="jboss-classloader.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/xnio"
+             licenseType=""
+             version="1.2.1.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="xnio-api.jar"/>
+    <artifact id="xnio-nio.jar"/>
+    <artifact id="xnio-metadata.jar"/>
+
+
+    <export>
+      <include input="xnio-nio.jar"/>
+      <include input="xnio-api.jar"/>
+      <include input="xnio-metadata.jar"/>
+
+    </export>
+  </component>
+</project>

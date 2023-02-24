@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/jaxr"
+             licenseType=""
+             version="1.2.1.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="juddi-saaj.jar"/>
+    <artifact id="juddi-service.sar"/>
+
+
+    <export>
+      <include input="juddi-service.sar"/>
+      <include input="juddi-saaj.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/jopr"
+             licenseType=""
+             version="1.2.0.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jopr-embedded-jbas5.war"/>
+
+
+    <export>
+      <include input="jopr-embedded-jbas5.war"/>
+
+    </export>
+  </component>
+</project>

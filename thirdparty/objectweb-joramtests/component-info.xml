@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="objectweb-joramtests"
+             licenseType=""
+             version="1.5"
+             description=""
+             
+             > 
+              
+    <artifact id="joramtests.jar"/>
+
+
+    <export>
+      <include input="joramtests.jar"/>
+
+    </export>
+  </component>
+</project>

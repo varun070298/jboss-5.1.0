@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="apache-bcel"
+             licenseType=""
+             version="5.1"
+             description=""
+             
+             > 
+              
+    <artifact id="bcel.jar"/>
+
+
+    <export>
+      <include input="bcel.jar"/>
+
+    </export>
+  </component>
+</project>

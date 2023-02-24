@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="woodstox"
+             licenseType=""
+             version="3.2.6"
+             description=""
+             
+             > 
+              
+    <artifact id="wstx.jar"/>
+
+
+    <export>
+      <include input="wstx.jar"/>
+
+    </export>
+  </component>
+</project>

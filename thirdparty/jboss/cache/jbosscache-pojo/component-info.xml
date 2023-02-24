@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/cache/jbosscache-pojo"
+             licenseType=""
+             version="3.0.0.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jbosscache-pojo.jar"/>
+
+
+    <export>
+      <include input="jbosscache-pojo.jar"/>
+
+    </export>
+  </component>
+</project>

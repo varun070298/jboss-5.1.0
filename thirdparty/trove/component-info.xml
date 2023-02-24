@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="trove"
+             licenseType=""
+             version="1.0.2"
+             description=""
+             
+             > 
+              
+    <artifact id="trove.jar"/>
+
+
+    <export>
+      <include input="trove.jar"/>
+
+    </export>
+  </component>
+</project>

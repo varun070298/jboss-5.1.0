@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/integration"
+             licenseType=""
+             version="5.0.3.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-jca-spi.jar"/>
+
+
+    <export>
+      <include input="jboss-jca-spi.jar"/>
+
+    </export>
+  </component>
+</project>

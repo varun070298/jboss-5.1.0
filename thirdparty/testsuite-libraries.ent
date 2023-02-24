@@ -1,0 +1,188 @@
+<!-- apache-httpclient -->
+<property name="apache.httpclient.root" value="${project.thirdparty}/apache-httpclient"/>
+<property name="apache.httpclient.lib" value="${apache.httpclient.root}/lib/"/>
+<property name="apache.httpclient.resources" value="${apache.httpclient.root}/resources/"/>
+<path id="apache.httpclient.classpath">
+   <pathelement path="${apache.httpclient.lib}/commons-httpclient.jar"/>
+</path>
+
+<!-- apache-maven-ant-tasks -->
+<property name="apache.maven.ant.tasks.root" value="${project.thirdparty}/apache-maven-ant-tasks"/>
+<property name="apache.maven.ant.tasks.lib" value="${apache.maven.ant.tasks.root}/lib/"/>
+<property name="apache.maven.ant.tasks.resources" value="${apache.maven.ant.tasks.root}/resources/"/>
+<path id="apache.maven.ant.tasks.classpath">
+   <pathelement path="${apache.maven.ant.tasks.lib}/maven-ant-tasks.jar"/>
+</path>
+
+<!-- classworlds -->
+<property name="classworlds.classworlds.root" value="${project.thirdparty}/classworlds"/>
+<property name="classworlds.classworlds.lib" value="${classworlds.classworlds.root}/lib/"/>
+<property name="classworlds.classworlds.resources" value="${classworlds.classworlds.root}/resources/"/>
+<path id="classworlds.classworlds.classpath">
+   <pathelement path="${classworlds.classworlds.lib}/classworlds.jar"/>
+</path>
+
+<!-- httpunit -->
+<property name="httpunit.httpunit.root" value="${project.thirdparty}/httpunit"/>
+<property name="httpunit.httpunit.lib" value="${httpunit.httpunit.root}/lib/"/>
+<property name="httpunit.httpunit.resources" value="${httpunit.httpunit.root}/resources/"/>
+<path id="httpunit.httpunit.classpath">
+   <pathelement path="${httpunit.httpunit.lib}/httpunit.jar"/>
+</path>
+
+<!-- jtidy -->
+<property name="jtidy.jtidy.root" value="${project.thirdparty}/jtidy"/>
+<property name="jtidy.jtidy.lib" value="${jtidy.jtidy.root}/lib/"/>
+<property name="jtidy.jtidy.resources" value="${jtidy.jtidy.root}/resources/"/>
+<path id="jtidy.jtidy.classpath">
+   <pathelement path="${jtidy.jtidy.lib}/jtidy.jar"/>
+</path>
+
+<!-- org/apache/maven -->
+<property name="org.apache.maven.root" value="${project.thirdparty}/org/apache/maven"/>
+<property name="org.apache.maven.lib" value="${org.apache.maven.root}/lib/"/>
+<property name="org.apache.maven.resources" value="${org.apache.maven.root}/resources/"/>
+<path id="org.apache.maven.classpath">
+   <pathelement path="${org.apache.maven.lib}/maven-artifact-manager.jar"/>
+   <pathelement path="${org.apache.maven.lib}/maven-artifact.jar"/>
+   <pathelement path="${org.apache.maven.lib}/maven-error-diagnostics.jar"/>
+   <pathelement path="${org.apache.maven.lib}/maven-model.jar"/>
+   <pathelement path="${org.apache.maven.lib}/maven-plugin-registry.jar"/>
+   <pathelement path="${org.apache.maven.lib}/maven-profile.jar"/>
+   <pathelement path="${org.apache.maven.lib}/maven-project.jar"/>
+   <pathelement path="${org.apache.maven.lib}/maven-repository-metadata.jar"/>
+   <pathelement path="${org.apache.maven.lib}/maven-settings.jar"/>
+</path>
+
+<!-- org/apache/maven/wagon -->
+<property name="org.apache.maven.wagon.root" value="${project.thirdparty}/org/apache/maven/wagon"/>
+<property name="org.apache.maven.wagon.lib" value="${org.apache.maven.wagon.root}/lib/"/>
+<property name="org.apache.maven.wagon.resources" value="${org.apache.maven.wagon.root}/resources/"/>
+<path id="org.apache.maven.wagon.classpath">
+   <pathelement path="${org.apache.maven.wagon.lib}/wagon-file.jar"/>
+   <pathelement path="${org.apache.maven.wagon.lib}/wagon-http-lightweight.jar"/>
+   <pathelement path="${org.apache.maven.wagon.lib}/wagon-http-shared.jar"/>
+   <pathelement path="${org.apache.maven.wagon.lib}/wagon-provider-api.jar"/>
+</path>
+
+<!-- org/codehaus/plexus -->
+<property name="org.codehaus.plexus.root" value="${project.thirdparty}/org/codehaus/plexus"/>
+<property name="org.codehaus.plexus.lib" value="${org.codehaus.plexus.root}/lib/"/>
+<property name="org.codehaus.plexus.resources" value="${org.codehaus.plexus.root}/resources/"/>
+<path id="org.codehaus.plexus.classpath">
+   <pathelement path="${org.codehaus.plexus.lib}/plexus-container-default.jar"/>
+   <pathelement path="${org.codehaus.plexus.lib}/plexus-utils.jar"/>
+</path>
+
+<!-- rhino -->
+<property name="rhino.rhino.root" value="${project.thirdparty}/rhino"/>
+<property name="rhino.rhino.lib" value="${rhino.rhino.root}/lib/"/>
+<property name="rhino.rhino.resources" value="${rhino.rhino.root}/resources/"/>
+<path id="rhino.rhino.classpath">
+   <pathelement path="${rhino.rhino.lib}/js.jar"/>
+</path>
+
+<!-- xerces -->
+<property name="xerces.xerces.root" value="${project.thirdparty}/xerces"/>
+<property name="xerces.xerces.lib" value="${xerces.xerces.root}/lib/"/>
+<property name="xerces.xerces.resources" value="${xerces.xerces.root}/resources/"/>
+<path id="xerces.xerces.classpath">
+   <pathelement path="${xerces.xerces.lib}/xmlParserAPIs.jar"/>
+</path>
+
+<!-- list of aliases used to bridge gap between buildmagic defs and jbossbuild -->
+
+
+<path id="apache.commons.classpath">
+  <pathelement path="${apache.collections.lib}/commons-collections.jar"/>
+  <pathelement path="${apache.logging.lib}/commons-logging.jar"/>
+  <pathelement path="${apache.httpclient.lib}/commons-httpclient.jar"/>
+  <pathelement path="${apache.discovery.lib}/commons-discovery.jar"/>
+  <pathelement path="${apache.fileupload.lib}/commons-fileupload.jar"/>
+  <pathelement path="${apache.lang.lib}/commons-lang.jar"/>  
+</path>
+
+<path id="sax.classpath">
+  <pathelement path="${xml-sax.classpath}"/>
+</path>
+ 
+<property name="xdoclet-xdoclet.lib" value="${xdoclet.xdoclet.lib}"/>
+<path id="xdoclet.task.classpath">
+  <path refid="xdoclet.xdoclet.classpath"/>
+</path>
+   
+<property name="gjt.jpl-util.lib" value="${gjt.jpl.util.lib}"/>   
+<path id="gjt.jpl-util.classpath">
+   <path refid="gjt.jpl.util.classpath"/>
+</path>   
+
+<property name="opennms.joesnmp.lib" value="${joesnmp.joesnmp.lib}"/>   
+<path id="opennms.joesnmp.classpath">
+   <path refid="joesnmp.joesnmp.classpath"/>
+</path>   
+
+<path id="jacorb.idl.classpath">
+   <path refid="apache.avalon.logkit.classpath"/>
+   <pathelement path="${jacorb.jacorb.lib}/idl.jar"/>
+</path>
+
+<property name="jacorb.idl.include" value="${jacorb.jacorb.resources}"/>
+<property name="jacorb.jacorb.properties" value="${jacorb.jacorb.resources}"/>
+  
+<property name="sleepycat.lib" value="${sleepycat.sleepycat.lib}"/>
+<path id="sleepycat.classpath">
+   <path refid="sleepycat.sleepycat.classpath"/>
+</path>
+  
+<property name="apache.tomcat55.root" value="${apache.tomcat.root}"/>
+<property name="apache.tomcat55.lib" value="${apache.tomcat.lib}"/>
+<path id="apache.tomcat55.classpath">
+   <path refid="apache.tomcat.classpath"/>
+</path>
+  
+<property name="trove.lib" value="${trove.trove.lib}"/>  
+<path id="trove.classpath">
+   <path refid="trove.trove.classpath"/>
+</path>
+  
+<path id="qdox.classpath">
+   <path refid="qdox.qdox.classpath"/>
+</path>
+  
+<property name="javassist.lib" value="${javassist.javassist.lib}"/>
+<path id="javassist.classpath">
+  <path refid="javassist.javassist.classpath"/>
+</path>
+  
+<property name="hibernate.lib" value="${hibernate.hibernate.lib}"/>  
+<path id="hibernate3.classpath">
+  <path refid="hibernate.hibernate.classpath"/>
+</path>
+
+<property name="odmg.lib" value="${odmg.odmg.lib}"/>
+<path id="odmg.classpath">
+  <path refid="odmg.odmg.classpath"/>
+</path>
+
+<property name="cglib.lib" value="${cglib.cglib.lib}"/>
+<path id="cglib.classpath">
+  <path refid="cglib.cglib.classpath"/>  
+</path>
+
+<path id="ejb3-persistence.classpath">
+   <path refid="hibernate.annotations.classpath"/>
+   <path refid="hibernate.entitymanager.classpath"/>
+</path>
+
+<property name="spring.lib" value="${spring.spring.lib}"/>
+<path id="spring.classpath">
+  <path refid="spring.spring.classpath"/>  
+</path>
+
+<!-- Ant -->
+<property name="apache.ant.root" value="${project.tools}"/>
+<property name="apache.ant.lib" value="${apache.ant.root}/lib"/>
+<path id="apache.ant.classpath">
+  <pathelement path="${apache.ant.lib}/ant.jar"/>
+</path>
+  

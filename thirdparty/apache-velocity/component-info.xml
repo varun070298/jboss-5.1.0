@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="apache-velocity"
+             licenseType=""
+             version="1.4jboss"
+             description=""
+             
+             > 
+              
+    <artifact id="velocity.jar"/>
+
+
+    <export>
+      <include input="velocity.jar"/>
+
+    </export>
+  </component>
+</project>

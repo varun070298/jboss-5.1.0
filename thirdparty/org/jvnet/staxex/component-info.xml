@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jvnet/staxex"
+             licenseType=""
+             version="1.2"
+             description=""
+             
+             > 
+              
+    <artifact id="stax-ex.jar"/>
+
+
+    <export>
+      <include input="stax-ex.jar"/>
+
+    </export>
+  </component>
+</project>

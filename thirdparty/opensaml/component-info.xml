@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="opensaml"
+             licenseType=""
+             version="1.1b"
+             description=""
+             
+             > 
+              
+    <artifact id="opensaml.jar"/>
+
+
+    <export>
+      <include input="opensaml.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/serialization"
+             licenseType=""
+             version="1.0.3.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-serialization.jar"/>
+
+
+    <export>
+      <include input="jboss-serialization.jar"/>
+
+    </export>
+  </component>
+</project>

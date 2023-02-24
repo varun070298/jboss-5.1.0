@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="apache-jaxme"
+             licenseType=""
+             version="0.2-cvs"
+             description=""
+             
+             > 
+              
+    <artifact id="jaxmexs.jar"/>
+
+
+    <export>
+      <include input="jaxmexs.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jbossws"
+             licenseType=""
+             version="3.0.1-native-2.0.4.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-jaxws.jar"/>
+    <artifact id="jboss-jaxrpc.jar"/>
+    <artifact id="jboss-saaj.jar"/>
+
+
+    <export>
+      <include input="jboss-jaxrpc.jar"/>
+      <include input="jboss-jaxws.jar"/>
+      <include input="jboss-saaj.jar"/>
+
+    </export>
+  </component>
+</project>

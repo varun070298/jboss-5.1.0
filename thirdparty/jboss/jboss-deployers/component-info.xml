@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jboss-deployers"
+             licenseType=""
+             version="2.0.7.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-deployers-vfs.jar"/>
+    <artifact id="jboss-deployers-vfs-spi.jar"/>
+    <artifact id="jboss-deployers-spi.jar"/>
+    <artifact id="jboss-deployers-structure-spi.jar"/>
+    <artifact id="jboss-deployers-client-spi.jar"/>
+    <artifact id="jboss-deployers-core-spi.jar"/>
+    <artifact id="jboss-deployers-core.jar"/>
+    <artifact id="jboss-deployers-client.jar"/>
+    <artifact id="jboss-deployers-impl.jar"/>
+
+
+    <export>
+      <include input="jboss-deployers-core-spi.jar"/>
+      <include input="jboss-deployers-client.jar"/>
+      <include input="jboss-deployers-vfs.jar"/>
+      <include input="jboss-deployers-core.jar"/>
+      <include input="jboss-deployers-spi.jar"/>
+      <include input="jboss-deployers-structure-spi.jar"/>
+      <include input="jboss-deployers-vfs-spi.jar"/>
+      <include input="jboss-deployers-client-spi.jar"/>
+      <include input="jboss-deployers-impl.jar"/>
+
+    </export>
+  </component>
+</project>

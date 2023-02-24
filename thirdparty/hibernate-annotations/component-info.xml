@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="hibernate-annotations"
+             licenseType=""
+             version="3.4.0.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="hibernate-annotations.jar"/>
+
+
+    <export>
+      <include input="hibernate-annotations.jar"/>
+
+    </export>
+  </component>
+</project>

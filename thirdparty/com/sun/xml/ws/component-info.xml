@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="com/sun/xml/ws"
+             licenseType=""
+             version="2.1.3"
+             description=""
+             
+             > 
+              
+    <artifact id="jaxws-rt.jar"/>
+
+
+    <export>
+      <include input="jaxws-rt.jar"/>
+
+    </export>
+  </component>
+</project>

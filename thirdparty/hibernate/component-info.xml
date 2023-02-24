@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="hibernate"
+             licenseType=""
+             version="3.3.1.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="hibernate-core.jar"/>
+    <artifact id="hibernate-jmx.jar"/>
+
+
+    <export>
+      <include input="hibernate-core.jar"/>
+      <include input="hibernate-jmx.jar"/>
+
+    </export>
+  </component>
+</project>

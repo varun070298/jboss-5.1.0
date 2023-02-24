@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jboss-man"
+             licenseType=""
+             version="2.1.0.SP1"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-managed.jar"/>
+    <artifact id="jboss-metatype.jar"/>
+
+
+    <export>
+      <include input="jboss-managed.jar"/>
+      <include input="jboss-metatype.jar"/>
+
+    </export>
+  </component>
+</project>

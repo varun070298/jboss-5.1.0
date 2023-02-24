@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="javax/security"
+             licenseType=""
+             version="1.0"
+             description=""
+             
+             > 
+              
+    <artifact id="jacc.jar"/>
+
+
+    <export>
+      <include input="jacc.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/jline-1.0.S2-A.jar"/>
+	<classpathentry kind="lib" path="lib/avro-tools-1.3.3.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jboss-profileservice-spi.jar"/>
+	<classpathentry kind="lib" path="lib/jboss-managed-2.0.0.GA.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

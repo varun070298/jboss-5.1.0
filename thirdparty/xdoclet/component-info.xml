@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="xdoclet"
+             licenseType=""
+             version="1.2.3"
+             description=""
+             
+             > 
+              
+    <artifact id="xdoclet.jar"/>
+    <artifact id="xdoclet-ejb-module.jar"/>
+    <artifact id="xdoclet-hibernate-module.jar"/>
+    <artifact id="xdoclet-java-module.jar"/>
+    <artifact id="xdoclet-jboss-module.jar"/>
+    <artifact id="xdoclet-jmx-module.jar"/>
+    <artifact id="xdoclet-portlet-module.jar"/>
+    <artifact id="xdoclet-web-module.jar"/>
+    <artifact id="xdoclet-xdoclet-module.jar"/>
+    <artifact id="xjavadoc.jar"/>
+
+
+    <export>
+      <include input="xdoclet-xdoclet-module.jar"/>
+      <include input="xdoclet-hibernate-module.jar"/>
+      <include input="xdoclet-ejb-module.jar"/>
+      <include input="xdoclet.jar"/>
+      <include input="xdoclet-jmx-module.jar"/>
+      <include input="xdoclet-java-module.jar"/>
+      <include input="xdoclet-portlet-module.jar"/>
+      <include input="xdoclet-web-module.jar"/>
+      <include input="xdoclet-jboss-module.jar"/>
+      <include input="xjavadoc.jar"/>
+
+    </export>
+  </component>
+</project>

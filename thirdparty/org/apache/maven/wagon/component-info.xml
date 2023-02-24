@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/apache/maven/wagon"
+             licenseType=""
+             version="1.0-beta-2"
+             description=""
+             
+             > 
+              
+    <artifact id="wagon-provider-api.jar"/>
+    <artifact id="wagon-file.jar"/>
+    <artifact id="wagon-http-lightweight.jar"/>
+    <artifact id="wagon-http-shared.jar"/>
+
+
+    <export>
+      <include input="wagon-provider-api.jar"/>
+      <include input="wagon-http-lightweight.jar"/>
+      <include input="wagon-file.jar"/>
+      <include input="wagon-http-shared.jar"/>
+
+    </export>
+  </component>
+</project>

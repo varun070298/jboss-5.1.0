@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="apache-beanutils"
+             licenseType=""
+             version="1.7.0"
+             description=""
+             
+             > 
+              
+    <artifact id="commons-beanutils.jar"/>
+
+
+    <export>
+      <include input="commons-beanutils.jar"/>
+
+    </export>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/apache/ant"
+             licenseType=""
+             version="1.7.1"
+             description=""
+             
+             > 
+              
+    <artifact id="ant.jar"/>
+    <artifact id="ant-launcher.jar"/>
+    <artifact id="ant-junit.jar"/>
+
+
+    <export>
+      <include input="ant-launcher.jar"/>
+      <include input="ant.jar"/>
+      <include input="ant-junit.jar"/>
+
+    </export>
+  </component>
+</project>

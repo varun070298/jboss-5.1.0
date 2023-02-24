@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="xmlunit-xmlunit"
+             licenseType=""
+             version="1.0"
+             description=""
+             
+             > 
+              
+    <artifact id="xmlunit1.0.jar"/>
+
+
+    <export>
+      <include input="xmlunit1.0.jar"/>
+
+    </export>
+  </component>
+</project>

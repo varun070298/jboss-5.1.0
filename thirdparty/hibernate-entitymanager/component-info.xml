@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="hibernate-entitymanager"
+             licenseType=""
+             version="1.0.2.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="ejb3-persistence.jar"/>
+    <artifact id="hibernate-entitymanager.jar"/>
+
+
+    <export>
+      <include input="hibernate-entitymanager.jar"/>
+      <include input="ejb3-persistence.jar"/>
+
+    </export>
+  </component>
+</project>

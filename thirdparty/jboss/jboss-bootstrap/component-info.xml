@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jboss-bootstrap"
+             licenseType=""
+             version="1.0.0-Beta-3"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-bootstrap.jar"/>
+
+
+    <export>
+      <include input="jboss-bootstrap.jar"/>
+
+    </export>
+  </component>
+</project>

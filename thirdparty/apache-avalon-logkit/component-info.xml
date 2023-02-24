@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="apache-avalon-logkit"
+             licenseType=""
+             version="1.2"
+             description=""
+             
+             > 
+              
+    <artifact id="logkit.jar"/>
+
+
+    <export>
+      <include input="logkit.jar"/>
+
+    </export>
+  </component>
+</project>

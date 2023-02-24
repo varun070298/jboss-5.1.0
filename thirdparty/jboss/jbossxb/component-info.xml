@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jbossxb"
+             licenseType=""
+             version="2.0.1.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-xml-binding.jar"/>
+
+
+    <export>
+      <include input="jboss-xml-binding.jar"/>
+
+    </export>
+  </component>
+</project>

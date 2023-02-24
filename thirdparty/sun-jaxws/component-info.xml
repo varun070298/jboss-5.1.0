@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="sun-jaxws"
+             licenseType=""
+             version="2.1.1"
+             description=""
+             
+             > 
+              
+    <artifact id="jaxws-api.jar"/>
+    <artifact id="jsr181-api.jar"/>
+    <artifact id="jaxws-rt.jar"/>
+    <artifact id="jaxws-tools.jar"/>
+    <artifact id="stax-ex.jar"/>
+    <artifact id="streambuffer.jar"/>
+
+
+    <export>
+      <include input="jaxws-api.jar"/>
+      <include input="jsr181-api.jar"/>
+
+    </export>
+  </component>
+</project>

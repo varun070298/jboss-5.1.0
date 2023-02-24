@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="jboss/jnp-client"
+             licenseType=""
+             version="5.0.3.GA"
+             description=""
+             
+             > 
+              
+    <artifact id="jnp-client.jar"/>
+
+
+    <export>
+      <include input="jnp-client.jar"/>
+
+    </export>
+  </component>
+</project>

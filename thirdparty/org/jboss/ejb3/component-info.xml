@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="org/jboss/ejb3"
+             licenseType=""
+             version="1.1.5"
+             description=""
+             
+             > 
+              
+    <artifact id="jboss-ejb3-as-int.jar"/>
+    <artifact id="jboss-ejb3.pom"/>
+
+
+    <export>
+      <include input="jboss-ejb3.pom"/>
+      <include input="jboss-ejb3-as-int.jar"/>
+
+    </export>
+  </component>
+</project>

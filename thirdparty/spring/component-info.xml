@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="">
+  <component id="spring"
+             licenseType=""
+             version="2.5.5"
+             description=""
+             
+             > 
+              
+    <artifact id="spring-aop.jar"/>
+    <artifact id="spring-beans.jar"/>
+    <artifact id="spring-core.jar"/>
+    <artifact id="spring-context.jar"/>
+    <artifact id="spring-web.jar"/>
+    <artifact id="spring-webmvc.jar"/>
+
+
+    <export>
+      <include input="spring-context.jar"/>
+      <include input="spring-webmvc.jar"/>
+      <include input="spring-web.jar"/>
+      <include input="spring-beans.jar"/>
+      <include input="spring-aop.jar"/>
+      <include input="spring-core.jar"/>
+
+    </export>
+  </component>
+</project>
